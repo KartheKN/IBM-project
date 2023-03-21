@@ -66,7 +66,7 @@ if __name__ == "__main__":
     
     le = LabelEncoder()
     tfv = TfidfVectorizer(min_df=1, stop_words='english')
-    data = pd.read_csv("C:\Users\Dharani-PC\Desktop\IBM\BankFAQs.csv")
+    data = pd.read_csv(r"C:\Users\Dharani-PC\Desktop\IBM\BankFAQs.csv")
     questions = data['Question'].values
     X = []
 
